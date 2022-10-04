@@ -1,13 +1,11 @@
-<div class="container">
-  <blockquote class="blockquote bg-light">
-    <p class="mb-3"><%= @question %></p>
-    <footer class="blockquote-footer mb-3">The question</footer>
-  </blockquote>
+<blockquote class="blockquote question">
+  <p class="mb-3"><%= @question %></p>
+  <footer class="blockquote-footer mb-3">The question</footer>
+</blockquote>
 
-  <blockquote class="blockquote bg-warning">
-    <p class="mb-3"><%= @answer %></p>
-    <footer class="blockquote-footer mb-3">The answer</footer>
-  </blockquote>
+<blockquote class="blockquote answer">
+  <p class="mb-3"><%= @answer %></p>
+  <footer class="blockquote-footer mb-3">The answer</footer>
+</blockquote>
 
-  <%= link_to('Make another question!', 'ask')  %>
-</div>
+<%= link_to('Make another question!', 'ask')  %>
